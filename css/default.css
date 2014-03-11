@@ -8,6 +8,7 @@ body {
     /* background-color: #ffffff; */
     color: black;
     font-size: 16px;
+    min-width: 800px;
     font-family: georgia, sans-serif;
 }
 
@@ -75,7 +76,23 @@ figure figcaption {
 }
 
 .post-content h1, .page-content h1 {
+    font-size: 32px;
+}
+
+.post-content h2, .page-content h2 {
     font-size: 24px;
+}
+
+#toc h2, #toc h1 {
+    font-size: 32px !important;
+}
+
+.post-content h3, .page-content h3 {
+    font-size: 20px;
+}
+
+.post-content ul, .page-content ul {
+    list-style-type: square;
 }
 
 .container p {
