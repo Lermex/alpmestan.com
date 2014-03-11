@@ -1,0 +1,10 @@
+site
+site.hi
+site.o
+hakyll-4.4.3.2/
+dist/
+cabal.sandbox.config
+_cache/
+_site/
+.cabal-sandbox/
+.DS_Store

@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "PW Cactus";
+    src: url('/css/PWCactus.ttf');
+}
+
+body {
+    background-color: #fafafa;
+    /* background-color: #ffffff; */
+    color: black;
+    font-size: 16px;
+    font-family: georgia, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    width: 65%;
+    height: auto;
+}
+
+#logo div {
+    color: #99a;
+}
+
+#logo h1 {
+    font-family: "PW Cactus", sans-serif;
+    font-size: 300%;    
+    text-shadow:1px 10px 10px #ddd;
+}
+
+#navigation {
+    width: 100%;
+    margin: 20px 0;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 8px 0;
+}
+
+#navigation a, #navigation a:visited, #navigation a:hover {
+    /* font-variant: small-caps; */
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 3px;
+
+    /* color: #00499C */
+    color: #428bca;
+}
+
+figure {
+    width: 50%;
+    margin: 32px auto;
+}
+
+figure img {
+    margin: 16px auto;
+    max-width: 400px;
+}
+
+figure figcaption {
+    text-align: center;
+    font-style: oblique;
+}
+
+.info, .date {
+    font-style: oblique;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    color: #bbb;
+}
+
+.list-group .date {
+    font-size: 14px;
+    padding-left: 32px;
+}
+
+.post-content h1, .page-content h1 {
+    font-size: 24px;
+}
+
+.container p {
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+pre {
+    width: 90%;
+    margin: 12px auto;
+}
+
+code {
+    background-color: #e8e8e9;
+    /* background-color: #fafafa; */
+    color: #333388;
+}
+
+hr {
+    background-color: #aaa;
+    color: #aaa;
+    height: 1px;
+    width: 100%;
+    margin: 16px auto;
+}
+
+#footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2px;
+    width: 100%;
+}
+
+#footer a {
+    color: #446;
+}
+
+#footer hr {
+    width: 100%;
+}
+
+.title hr {
+    width: 25% !important;
+    margin: 25px auto 36px;
+
+}
+
+.tagcloud hr {
+    width: 25% !important;
+}
+
+.centerize {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.tags li a:hover {
+    background-color: #428bca;
+    /* background-color: #efefef; */
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.tags li a {
+    background-color: #fff;
+    color: #428bca;
+    /* text-decoration: underline; */
+    border: 1px solid #428bca;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.list-group-item-heading {
+    width: 100%;
+}
+
+.list-group-item-heading a {
+    font-size: 150%;
+    color: #00499C;
+}
+
+.tagcloud {
+    width:80%;
+    margin: 0 auto 6px;
+}
+
+.fa-rss {
+    color: #a45;
+}
+
+#toc {
+    float: right;
+    margin-left: 16px;
+    width: 300px;
+}
+
+#toc ul {
+    list-style-type: upper-roman;
+}
+
+#toc li > ul {
+    list-style-type: decimal;
+}
+
+#toc h3 {
+    text-align: center;
+}
+p .math {
+    font-size: 110%;
+}
