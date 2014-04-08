@@ -26,8 +26,6 @@ In addition, I also suggest taking an occasional look at the [Haskell wikibook](
 
 - There are many monad tutorials out there, yes. There's one that I really recommend to *any* Haskeller who is still struggling to understand what they are, written by the great Dan Piponi: [You Could Have Invented Monads! (And Maybe You Already Have.)](http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html)
 
-(this is work in progress)
-
 # GHC Core
 
 Although I have written a few things about it (see [here](http://alpmestan.com/tags/core.html)), I strongly recommend checking out the links given on StackOverflow, mostly by Don Stewart: [Reading GHC Core](http://stackoverflow.com/questions/6121146/reading-ghc-core). 
@@ -38,4 +36,6 @@ A small tip for getting a GHC Core output that's actually readable is to build y
 $ ghc -O2 -ddump-simpl -dsuppress-idinfo -dsuppress-coercions -dsuppress-type-applications -dsuppress-uniques -dsuppress-module-prefixes Hello.hs
 ```
 
-*(this page is work in progress)*
+# Misc.
+
+- [Great tutorial about the 'reflection' library](https://www.fpcomplete.com/user/thoughtpolice/using-reflection), written by Austin Seipp.

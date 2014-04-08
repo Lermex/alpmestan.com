@@ -95,6 +95,10 @@ figure figcaption {
     list-style-type: square;
 }
 
+.post-content p {
+    text-align: justify;
+}
+
 .container p {
     margin-left: 12px;
     margin-top: 12px;
