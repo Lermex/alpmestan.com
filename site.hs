@@ -55,8 +55,8 @@ main = do
         match "posts/*" $ do
             route $ setExtension "html"
             compile $ myPandocCompiler
-                >>= saveSnapshot "content"
                 >>= loadAndApplyTemplate "templates/post.html"    (postCtx tags)
+                >>= saveSnapshot "content"
                 >>= loadAndApplyTemplate "templates/default.html" (defaultContext `mappend` yearCtx year)
                 >>= relativizeUrls
 
@@ -130,6 +130,7 @@ yearCtx year = field "year" $ \item -> return year
 feedCtx :: Context String
 feedCtx = mconcat
     [ bodyField "description"
+    , dateField "date" "%B %e, %Y"
     , defaultContext
     ]
 
@@ -153,7 +154,7 @@ pageCtx = mconcat
 -- | Holds my feed's configuration
 myFeedConfiguration :: FeedConfiguration
 myFeedConfiguration = FeedConfiguration
-    { feedTitle       = "Alp Mestanogullari"
+    { feedTitle       = "Alp Mestanogullari's blog"
     , feedDescription = "From Hask Till Dawn"
     , feedAuthorName  = "Alp Mestanogullari"
     , feedAuthorEmail = "alpmestan@gmail.com"

@@ -20,6 +20,11 @@ executable site
   main-is:             site.hs
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.6 && <4.7, hakyll, pandoc, time, blaze-html, old-locale
+  build-depends:       base >=4.5 && <5, 
+                       hakyll == 4.5.3.*, 
+                       pandoc, 
+                       time, 
+                       blaze-html, 
+                       old-locale
   -- hs-source-dirs:      
   default-language:    Haskell2010

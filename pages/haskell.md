@@ -36,6 +36,7 @@ A small tip for getting a GHC Core output that's actually readable is to build y
 $ ghc -O2 -ddump-simpl -dsuppress-idinfo -dsuppress-coercions -dsuppress-type-applications -dsuppress-uniques -dsuppress-module-prefixes Hello.hs
 ```
 
-# Misc.
+# Libraries
 
 - [Great tutorial about the 'reflection' library](https://www.fpcomplete.com/user/thoughtpolice/using-reflection), written by Austin Seipp.
+- [An introductory talk about 'lens'](https://skillsmatter.com/skillscasts/4251-lenses-compositional-data-access-and-manipulation), by Simon Peyton Jones
