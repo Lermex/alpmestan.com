@@ -8,7 +8,7 @@ toc: true
 tags: haskell, testing, attoparsec, hspec
 ---
 
-Almost all haskellers end up, some day, having to write a parser. But then, that's not really a problem because writing parsers in Haskell isn't really annoying, like it tends to be elsewhere. Of special interest to us is [attoparsec](http://hackage.haskell.org/package/attoparsec), a **very fast** parser generator library. It lets you combine small, simple parsers to express how data should be extracted from that specific format you're working with.
+Almost all haskellers end up, some day, having to write a parser. But then, that's not really a problem because writing parsers in Haskell isn't really annoying, like it tends to be elsewhere. Of special interest to us is [attoparsec](http://hackage.haskell.org/package/attoparsec), a **very fast** parser combinator library. It lets you combine small, simple parsers to express how data should be extracted from that specific format you're working with.
 
 # Getting our feet wet with attoparsec
 
@@ -130,7 +130,7 @@ Finished in 0.0001 seconds
 0 examples, 0 failures
 ```
 
-Alright, let's first introduce a couple of tests where or parser should succeed.
+Alright, let's first introduce a couple of tests where our parser should succeed.
 
 ``` haskell
 spec :: Spec
