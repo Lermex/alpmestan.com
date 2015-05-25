@@ -5,7 +5,7 @@ comments: true
 toc: true
 ---
 
-**Haskell** has now been my programming language of choice for 6 years. For many things, I had to struggle to understand
+**Haskell** has now been my programming language of choice for 7 years. For many things, I had to struggle to understand
 the meat of them and went through the usual troubles (lost in monad tutorials and friends, seeing super-abstract 
 code written mentionning all kinds of abstractions, etc). This page is just supposed to gather some links and explanations that I found to be helpful and/or interesting.
 
@@ -40,3 +40,9 @@ $ ghc -O2 -ddump-simpl -dsuppress-idinfo -dsuppress-coercions -dsuppress-type-ap
 
 - [Great tutorial about the 'reflection' library](https://www.fpcomplete.com/user/thoughtpolice/using-reflection), written by Austin Seipp.
 - [An introductory talk about 'lens'](https://skillsmatter.com/skillscasts/4251-lenses-compositional-data-access-and-manipulation), by Simon Peyton Jones
+
+# History
+
+Like anything but photons in this world, *Haskell* does have an history. A very interesting one -- you can see many of the ideas and features we know, love and use these days come into play (but not all of them). And guess what? Most of that story is available to anyone interested in a very-well written paper.
+
+- [A History of Haskell: Being Lazy With Class](http://research.microsoft.com/en-us/um/people/simonpj/papers/history-of-haskell/history.pdf), Paul Hudak (Yale University), John Hughes (Chalmers University), Simon Peyton Jones (Microsoft Research), Philip Wadler (Edinburgh University), The Third ACM SIGPLAN History of Programming Languages Conference (HOPL-III) San Diego, California, June 9-10, 2007.

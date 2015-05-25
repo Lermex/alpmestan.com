@@ -21,8 +21,9 @@ executable site
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.5 && <5, 
-                       hakyll == 4.5.3.*, 
-                       pandoc, 
+                       hakyll, 
+                       pandoc,
+                       text < 1.2,
                        time, 
                        blaze-html, 
                        old-locale

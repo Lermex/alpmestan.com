@@ -35,6 +35,10 @@ main = do
             route   idRoute
             compile copyFileCompiler
 
+        match "servant/*" $ do
+            route idRoute
+            compile copyFileCompiler
+
         match "js/*" $ do
             route   idRoute
             compile copyFileCompiler
@@ -203,7 +207,7 @@ renderOneTag tag (Just filepath) =
 config :: Configuration
 config = defaultConfiguration
     { deployCommand = "rsync -avz -e ssh ./_site/ \ 
-                       \ alpmestan@alpmestan.com:public_html/" 
+                       \ alp@alpmestan.com:public_html/" 
     }
 
 
