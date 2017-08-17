@@ -1,5 +1,5 @@
 ---
-title: GHC Core by example, episode 1: Hello, Core!
+title: "GHC Core by example, episode 1: Hello, Core!"
 author: Alp Mestanogullari
 date: 2013-06-27 03:00
 comments: true

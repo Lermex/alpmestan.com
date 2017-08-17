@@ -1,5 +1,5 @@
 ---
-title: GHC Core by example, episode 2: Evaluation
+title: "GHC Core by example, episode 2: Evaluation"
 author: Alp Mestanogullari
 date: 2013-10-01 23:00
 comments: true

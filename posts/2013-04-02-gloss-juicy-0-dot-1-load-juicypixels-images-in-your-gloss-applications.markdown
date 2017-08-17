@@ -1,5 +1,5 @@
 ---
-title: gloss-juicy-0.1: Load JuicyPixels images in your gloss applications
+title: "gloss-juicy-0.1: Load JuicyPixels images in your gloss applications"
 author: Alp Mestanogullari
 date: 2013-04-02 15:28
 comments: true

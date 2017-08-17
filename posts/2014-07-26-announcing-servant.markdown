@@ -1,5 +1,5 @@
 ---
-title: Write web services around databases with 0 boilerplate: announcing servant 0.1
+title: "Write web services around databases with 0 boilerplate: announcing servant 0.1"
 author: Alp Mestanogullari
 date: 2014-07-26 17:00
 description: If you need to write web services that basically wrap database operations, check out servant whose goal is to let you do that in just a couple of lines. No boilerplate anymore.

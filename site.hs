@@ -8,11 +8,10 @@ import Control.Applicative ((<$>))
 import Data.Char
 import Data.Maybe (catMaybes)
 import Data.Monoid (mappend, (<>), mconcat, mempty)
-import Data.Time.Format (formatTime)
+import Data.Time.Format (formatTime, defaultTimeLocale)
 import Data.Time.Clock (getCurrentTime)
 import Hakyll
 import Hakyll.Web.Tags
-import System.Locale (defaultTimeLocale)
 import Text.Blaze.Html (toHtml, toValue, (!))
 import Text.Blaze.Html.Renderer.String (renderHtml)
 import qualified Text.Blaze.Html5                as H
@@ -228,8 +227,7 @@ myPandocCompiler' withToc =
                            }
           writerWithToc = 
             writerOpts { writerTableOfContents = True 
-                       , writerTemplate = "$if(toc)$<div id=\"toc\"><h3>Table of contents</h3>$toc$</div>$endif$\n$body$" 
-                       , writerStandalone = True 
+                       , writerTemplate = Just "$if(toc)$<div id=\"toc\"><h3>Table of contents</h3>$toc$</div>$endif$\n$body$" 
                        }
 
 myPandocCompiler :: Compiler (Item String)
