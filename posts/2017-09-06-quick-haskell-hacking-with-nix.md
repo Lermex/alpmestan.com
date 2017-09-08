@@ -51,7 +51,7 @@ set that it is providing us with, `pkgs`.
 
 _Note_: a haskell package set in nix is basically any record that provides
 the packages you need, where packages must be declared under a very precise
-shape. The one we're using here is derived from the latest stackage LTS (9.x)
+shape. The one we're using here (`haskell.packages.ghc821`) is derived from the latest stackage LTS (9.x)
 but we could very well be calling `thebestpackageset.ghcWithPackages` instead,
 provided that we define `thebestpackageset` somewhere and that its definition
 is valid. For example, you could simply extend the latest LTS with a few packages
